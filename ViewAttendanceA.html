@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en" class="loading">
+<!-- BEGIN : Head-->
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+  <meta name="description"
+    content="Apex admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
+  <meta name="keywords"
+    content="admin template, Apex admin template, dashboard template, flat admin template, responsive admin template, web app">
+  <meta name="author" content="PIXINVENT">
+  <title>Al-Hammd Grammar School - Admin Portal</title>
+  <link rel="apple-touch-icon" sizes="60x60" href="app-assets/img/ico/apple-icon-60.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="app-assets/img/ico/apple-icon-76.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="app-assets/img/ico/apple-icon-120.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="app-assets/img/ico/apple-icon-152.png">
+  <link rel="shortcut icon" type="image/x-icon" href="app-assets/img/ico/favicon.ico">
+  <link rel="shortcut icon" type="image/png" href="app-assets/img/ico/favicon-32.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-touch-fullscreen" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900|Montserrat:300,400,500,600,700,800,900"
+    rel="stylesheet">
+  <!-- BEGIN VENDOR CSS-->
+  <!-- font icons-->
+  <link rel="stylesheet" type="text/css" href="app-assets/fonts/feather/style.min.css">
+  <link rel="stylesheet" type="text/css" href="app-assets/fonts/simple-line-icons/style.css">
+  <link rel="stylesheet" type="text/css" href="app-assets/fonts/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/perfect-scrollbar.min.css">
+  <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/prism.min.css">
+  <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/chartist.min.css">
+  <!-- END VENDOR CSS-->
+  <!-- BEGIN APEX CSS-->
+  <link rel="stylesheet" type="text/css" href="app-assets/css/app.css">
+  <!-- END APEX CSS-->
+  <!-- BEGIN Page Level CSS-->
+  <!-- END Page Level CSS-->
+</head>
+<!-- END : Head-->
+
+<!-- BEGIN : Body-->
+
+<body data-col="2-columns" class=" 2-columns  layout-dark layout-transparent bg-glass-1">
+  <!-- ////////////////////////////////////////////////////////////////////////////-->
+  <div class="wrapper">
+
+
+    <!-- main menu-->
+    <!--.main-menu(class="#{menuColor} #{menuOpenType}", class=(menuShadow == true ? 'menu-shadow' : ''))-->
+    <div data-active-color="white" data-background-color="" data-image="" class="app-sidebar">
+      <!-- main menu header-->
+      <!-- Sidebar Header starts-->
+      <div class="sidebar-header">
+        <div class="logo clearfix"><a href="AdminDashboard.html" class="logo-text float-left">
+            <div class="logo-img"><img src="app-assets/img/gallery/logo.png" style="width: 120%;" /></div>
+            <span class="text align-middle">Al-Hammd</span>
+          </a>
+        </div>
+      </div>
+      <!-- Sidebar Header Ends-->
+      <!-- / main menu header-->
+      <!-- main menu content-->
+      <div class="sidebar-content">
+        <div class="nav-container">
+          <ul id="main-menu-navigation" data-menu="menu-navigation" data-scroll-to-active="true"
+            class="navigation navigation-main">
+            <li class=" nav-item"><a href="RegisterStudent.html"><i class="ft-droplet"></i><span data-i18n=""
+                  class="menu-title">Register Student</span></a>
+            </li>
+            <li class=" nav-item"><a href="RegisterTeacher.html"><i class="ft-droplet"></i><span data-i18n="" class="menu-title">
+                Register Teacher</span></a>
+            </li>
+            <li class=" nav-item"><a href="EditStudentA.html"><i class="ft-droplet"></i><span data-i18n=""
+                  class="menu-title">Edit Student </span></a>
+            </li>
+            <li class=" nav-item"><a href="EditTeacherA.html"><i class="ft-droplet"></i><span data-i18n=""
+                class="menu-title">Edit Teacher </span></a>
+             </li>
+            <li class=" nav-item"><a href="ViewAttendanceA.html"><i class="ft-droplet"></i><span data-i18n=""
+                  class="menu-title">View Attendance</span></a>
+            </li>
+            <li class=" nav-item"><a href="SearchStudentsA.html"><i class="ft-droplet"></i><span data-i18n=""
+                  class="menu-title">Search Students</span></a>
+            </li>
+            <li class=" nav-item"><a href="SearchTeachersA.html"><i class="ft-droplet"></i><span data-i18n=""
+                class="menu-title">Search Teachers</span></a>
+            </li>
+            <center>
+              <div class="recover-pass">
+                <button class="btn btn-primary">
+                  <a href="index.html" class="text-decoration-none text-white">Logout</a>
+                </button>
+              </div>
+            </center>
+          </ul>
+        </div>
+      </div>
+      <!-- main menu content-->
+      <div class="sidebar-background"></div>
+      <!-- main menu footer-->
+      <!-- include includes/menu-footer-->
+      <!-- main menu footer-->
+    </div>
+    <!-- / main menu-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-faded header-navbar">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" data-toggle="collapse" class="navbar-toggle d-lg-none float-left"><span
+              class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span
+              class="icon-bar"></span></button><span class="d-lg-none navbar-right navbar-collapse-toggle"><a
+              aria-controls="navbarSupportedContent" href="javascript:;" class="open-navbar-container black"><i
+                class="ft-more-vertical"></i></a></span>
+          <form role="search" class="navbar-form navbar-right mt-1">
+            <div class="position-relative has-icon-right">
+              <input type="text" placeholder="Search" class="form-control round" />
+              <div class="form-control-position"><i class="ft-search"></i></div>
+            </div>
+          </form>
+        </div>
+        <div class="navbar-container">
+          <div id="navbarSupportedContent" class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+              <li class="nav-item mr-2 d-none d-lg-block"><a id="navbar-fullscreen" href="javascript:;"
+                  class="nav-link apptogglefullscreen"><i class="ft-maximize font-medium-3 blue-grey darken-4"></i>
+                  <p class="d-none">fullscreen</p>
+                </a></li>
+              <li class="dropdown nav-item"><a id="dropdownBasic3" href="#" data-toggle="dropdown"
+                  class="nav-link position-relative dropdown-toggle"><i
+                    class="ft-user font-medium-3 blue-grey darken-4"></i>
+                  <p class="d-none">User Settings</p>
+                </a>
+                <div ngbdropdownmenu="" aria-labelledby="dropdownBasic3"
+                  class="dropdown-menu text-left dropdown-menu-right"><a href="AdminEditProfile.html" class="dropdown-item py-1"><i
+                      class="ft-edit mr-2"></i><span>Edit
+                      Profile</span></a><a href="#" class="dropdown-item py-1">
+                    <div class="dropdown-divider"></div><a href="index.html" class="dropdown-item"><i
+                        class="ft-power mr-2"></i><span>Logout</span></a>
+                </div>
+              </li>
+              <li class="nav-item d-none d-lg-block"><a href="javascript:;"
+                  class="nav-link position-relative notification-sidebar-toggle"><i
+                    class="ft-align-left font-medium-3 blue-grey darken-4"></i>
+                  <p class="d-none">Notifications Sidebar</p>
+                </a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="main-panel">
+        <!-- BEGIN : Main Content-->
+        <div class="main-content">
+            <div class="content-wrapper">
+                <section id="column">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h4 class="card-title">View Attendance</h4>
+                                </div>
+                                <div class="card-content ">
+                                    <div class="card-body card-dashboard table-responsive">
+                                        <table class="table table-striped table-bordered column-rendering">
+                                            <thead>
+                                                <tr>
+                                                    <th>ID</th>
+                                                    <th>Student Roll</th>
+                                                    <th>Student Name</th>
+                                                    <th>Student Class</th>
+                                                    <th>Status</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>10</td>
+                                                    <td>John Doe</td>
+                                                    <td>10th</td>
+                                                    <td>Present</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td>20</td>
+                                                    <td>Jhonny Doe</td>
+                                                    <td>10th</td>
+                                                    <td>Present</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3</td>
+                                                    <td>30</td>
+                                                    <td>Jack Doef</td>
+                                                    <td>10th</td>
+                                                    <td>Present</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>4</td>
+                                                    <td>40</td>
+                                                    <td>Hnaf Doe</td>
+                                                    <td>10th</td>
+                                                    <td>Absent</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>5</td>
+                                                    <td>50</td>
+                                                    <td>Hanif Raon</td>
+                                                    <td>10th</td>
+                                                    <td>Absent</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>6</td>
+                                                  <td>60</td>
+                                                  <td>Sam Doe</td>
+                                                  <td>8th</td>
+                                                  <td>Present</td>
+                                              </tr>
+                                              <tr>
+                                                  <td>7</td>
+                                                  <td>70</td>
+                                                  <td>Qany Doe</td>
+                                                  <td>8th</td>
+                                                  <td>Present</td>
+                                              </tr>
+                                              <tr>
+                                                  <td>8</td>
+                                                  <td>80</td>
+                                                  <td>Johnn Doef</td>
+                                                  <td>7th</td>
+                                                  <td>Absent</td>
+                                              </tr>
+                                              <tr>
+                                                  <td>9</td>
+                                                  <td>90</td>
+                                                  <td>Hanf Doe</td>
+                                                  <td>7th</td>
+                                                  <td>Absent</td>
+                                              </tr>
+                                              <tr>
+                                                  <td>10</td>
+                                                  <td>95</td>
+                                                  <td>Hamz Raon</td>
+                                                  <td>7th</td>
+                                                  <td>Absent</td>
+                                              </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+  <!-- BEGIN VENDOR JS-->
+  <script src="app-assets/vendors/js/core/jquery-3.2.1.min.js" type="text/javascript"></script>
+  <script src="app-assets/vendors/js/core/popper.min.js" type="text/javascript"></script>
+  <script src="app-assets/vendors/js/core/bootstrap.min.js" type="text/javascript"></script>
+  <script src="app-assets/vendors/js/perfect-scrollbar.jquery.min.js" type="text/javascript">
+  </script>
+  <script src="app-assets/vendors/js/prism.min.js" type="text/javascript"></script>
+  <script src="app-assets/vendors/js/jquery.matchHeight-min.js" type="text/javascript"></script>
+  <script src="app-assets/vendors/js/screenfull.min.js" type="text/javascript"></script>
+  <script src="app-assets/vendors/js/pace/pace.min.js" type="text/javascript"></script>
+  <!-- BEGIN VENDOR JS-->
+  <!-- BEGIN PAGE VENDOR JS-->
+  <script src="app-assets/vendors/js/chartist.min.js" type="text/javascript"></script>
+  <!-- END PAGE VENDOR JS-->
+  <!-- BEGIN APEX JS-->
+  <script src="app-assets/js/app-sidebar.js" type="text/javascript"></script>
+  <script src="app-assets/js/notification-sidebar.js" type="text/javascript"></script>
+  <script src="app-assets/js/customizer.js" type="text/javascript"></script>
+  <!-- END APEX JS-->
+  <!-- BEGIN PAGE LEVEL JS-->
+  <script src="app-assets/js/dashboard1.js" type="text/javascript"></script>
+  <!-- END PAGE LEVEL JS-->
+</body>
+<!-- END : Body-->
+
+</html>
